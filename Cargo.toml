@@ -1,0 +1,10 @@
+[package]
+edition = "2018"
+name = "bayer-cli"
+version = "0.1.0"
+
+[dependencies]
+reqwest = { version = "0.11", features = [ "json" ] }
+serde = { version = "1.0", features = [ "derive" ] }
+structopt = "0.3"
+tokio = { version = "1", features = [ "full" ] }
